@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.nav-bg-container {
+  background-color: #ffffff;
+  height: 10vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-img {
+  height: 30px;
+  width: 120px;
+  margin-left: 70px;
+}
+
+.nav-ul-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.nav-route-el {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.nav-btn-el {
+  background-color: #0b69ff;
+  width: 45px;
+  height: 20px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 8px;
+}

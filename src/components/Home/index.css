@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-card-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.content-header {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.content-para {
+  color: #64748b;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.content-btn-el {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.content-img {
+  width: 30%;
+  margin-right: 70px;
+}

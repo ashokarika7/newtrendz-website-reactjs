@@ -1,0 +1,86 @@
+/* Write your CSS code here */
+.form-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.login-image {
+  width: 460px;
+  height: 300px;
+}
+
+.inputFormContainer {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  padding-top: 30px;
+}
+
+.form-container-img {
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.inp-form-container {
+  width: 210px;
+  padding: 0px;
+}
+
+.userName-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.inp-form-container {
+  width: 240px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.label-el {
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.userName-inp {
+  line-height: 16px;
+  border: 1px solid #e2e8f0;
+  background-color: #d7dfe9;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+.button-el {
+  width: 100%;
+  height: 30px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 15px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+.error-para {
+  color: #ff0b37;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
